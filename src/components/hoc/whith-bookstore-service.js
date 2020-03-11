@@ -18,3 +18,5 @@ const withBookstoreService = () => (Wrapped) => {
 };
 
 export default withBookstoreService;
+
+
