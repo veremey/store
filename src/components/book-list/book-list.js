@@ -33,21 +33,6 @@ class BookListContainer extends Component {
 
   componentDidMount() {
     this.props.fetchBooks();
-    // 1. receive data
-    //const {
-    //  bookstoreService,
-    //  booksLoaded,
-    //  booksRequested,
-    //  booksError
-    //} = this.props;
-
-    //booksRequested();
-    //bookstoreService.getBooks()
-    //  .then((data) => {
-    //    // 2. dispacth action to store
-    //    booksLoaded(data);
-    //  })
-    //  .catch((err) => booksError(err));
   }
 
   render() {
